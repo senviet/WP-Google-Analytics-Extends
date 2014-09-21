@@ -126,7 +126,7 @@ function content($instance)
         $instance['fromdate'] = date( 'Y-m-d', $start_date_ts );
         $instance['todate']   = date( 'Y-m-d' );
     }
-    the_TopPage($instance['accountid'], $instance['count'], $instance['fromdate'], $instance['todate'], $instance['isShowViewCount'], $linkExtras);
+    WADE_the_TopPage($instance['accountid'], $instance['count'], $instance['fromdate'], $instance['todate'], $instance['isShowViewCount'], $linkExtras);
 }
 
     function formScript()
